@@ -1,0 +1,17 @@
+site_name: api
+site_description: API for zip codes
+repo_url: https://github.com/omarsalazar/zip-codes-api
+site_dir: site
+copyright: Copyright &copy; 2023, <a href="https://github.com/omarsalazar">Omar Salazar Paz</a>.
+dev_addr: 0.0.0.0:8001
+
+nav:
+  - Home: 'index.md'
+  - API:
+    - Authentication: 'api/authentication.md'
+    - Users: 'api/users.md'
+    - Settlement Types: 'api/settlement-types.md'
+    - Settlements: 'api/settlement.md'
+    - Municipalities: "api/municipalities.md"
+    - Federal Entities: "api/federal_entities.md"
+    - Zip Codes: "api/zip_codes.md"

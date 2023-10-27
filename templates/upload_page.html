@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <p>
+            Update data from the excel file provided in https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx
+
+        </p>
+        <form enctype="multipart/form-data" method="post">
+            {% csrf_token %}
+            <input accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" type="file" name="file">
+            <input type="submit">
+        </form>
+    </body>
+</html>
